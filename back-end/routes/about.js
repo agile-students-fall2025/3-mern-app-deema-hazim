@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
       experience. Outside of academics, I play volleyball on the NYUAD Women's Volleyball team. 
       I am a also huge fan of Formula 1 and football (the european one), and love to watch them when I have time.
     `,
-    image: "https://imgur.com/a/fJfW73k"
+    image: "https://i.imgur.com/NdXAQ5I.jpeg"
   });
 });
 
