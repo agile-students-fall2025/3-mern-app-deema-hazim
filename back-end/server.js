@@ -8,7 +8,7 @@ require('dotenv').config({ silent: true }) // load environmental variables from 
 const aboutRoute = require('./routes/about');
 
 // use the route
-app.use('/api/about', aboutRoute);
+server.use('/api/about', aboutRoute);
 
 // which port to listen for HTTP(S) requests
 const port = process.env.PORT || 3000
