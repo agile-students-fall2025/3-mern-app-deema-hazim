@@ -4,6 +4,12 @@
 const server = require('./app')
 require('dotenv').config({ silent: true }) // load environmental variables from a hidden file named .env
 
+// import the routes
+const aboutRoute = require('./routes/about');
+
+// use the route
+app.use('/api/about', aboutRoute);
+
 // which port to listen for HTTP(S) requests
 const port = process.env.PORT || 3000
 
